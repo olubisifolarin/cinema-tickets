@@ -9,5 +9,8 @@ export default class TicketPaymentService {
     if (!Number.isInteger(totalAmountToPay)) {
       throw new TypeError('totalAmountToPay must be an integer');
     }
+    // External payment provider - no implementation needed
+    console.log(`Payment of £${totalAmountToPay} made for account ${accountId}`);
   }
 }
+

@@ -9,5 +9,7 @@ export default class SeatReservationService {
     if (!Number.isInteger(totalSeatsToAllocate)) {
       throw new TypeError('totalSeatsToAllocate must be an integer');
     }
+    // External seat reservation provider - no implementation needed
+    console.log(`${totalSeatsToAllocate} seat(s) reserved for account ${accountId}`);
   }
 }
