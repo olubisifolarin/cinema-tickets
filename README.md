@@ -8,9 +8,12 @@ and input validation.
 
 ### How to Run Tests ###
 
-``` node test/TicketService.test.js ```
+``` 
+node test/TicketService.test.js
+
+```
 
 ### Tech ###
 
-JavaScript (ES Modules)
-Node.js v20+
+- JavaScript (ES Modules)
+- Node.js v20+
